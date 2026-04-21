@@ -748,7 +748,7 @@ textarea.finput { resize: vertical; }
 
 @media (prefers-reduced-motion: reduce) {
   .ra-anim-up, .ra-anim-in, .ra-anim-left, .ra-anim-right, .ra-anim-scale { animation: none; opacity: 1; }
-}
+} 
 
 /* ── Misc helpers ── */
 .img-cover  { width: 100%; object-fit: cover; height:300px; display: block; border-radius: var(--radius); }
