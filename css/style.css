@@ -462,7 +462,7 @@ textarea.finput { resize: vertical; }
 [data-theme="dark"] .badge-gray  { background: var(--surface2); color: var(--text3); }
 
 /* ── STATS ── */
-.stat-num { font-family: var(--ff); font-size: 2.2rem; font-weight: 600; color: var(--rose); line-height: 1; }
+.stat-num { font-family: var(--ff); font-size: 2.2rem !important; font-weight: 600; color: var(--rose); line-height: 1; }
 .stat-lbl { font-size: 14px !important; color: var(--text3); margin-top: .25rem; }
 
 /* ── PROGRESS BAR ── */
