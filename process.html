@@ -22,8 +22,29 @@
 </div></section>
 
 <section class="sec sec-alt"><div class="container">
-  <div class="row g-5 align-items-center">
-    <div class="col-lg-6"><img src="images/image28.jpg" class="img-cover img-h400" alt="Video"></div>
+  <div class="row g-5 align-items-stretch">
+    <div class="col-lg-6" style="display:flex;flex-direction:column;">
+      <div style="position:relative;flex:1;min-height:460px;border-radius:14px;overflow:hidden;">
+        <img src="images/image28.jpg" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" alt="Featured Video">
+        <div style="position:absolute;inset:0;background:linear-gradient(160deg,rgba(8,3,2,.18) 0%,rgba(8,3,2,.72) 100%);"></div>
+        <!-- Top badge -->
+        <div style="position:absolute;top:1.2rem;left:1.2rem;">
+          <span style="background:var(--rose);color:#fff;font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;padding:.35rem .85rem;border-radius:20px;font-weight:600;">Featured</span>
+        </div>
+        <!-- Center play button -->
+        <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;">
+          <div style="width:76px;height:76px;border-radius:50%;background:rgba(255,255,255,.15);backdrop-filter:blur(8px);border:2px solid rgba(255,255,255,.55);display:flex;align-items:center;justify-content:center;cursor:pointer;">
+            <i class="bi bi-play-fill" style="color:#fff;font-size:2rem;margin-left:5px;"></i>
+          </div>
+        </div>
+        <!-- Bottom info strip -->
+        <div style="position:absolute;bottom:0;left:0;right:0;padding:1.6rem 1.5rem;background:linear-gradient(0deg,rgba(8,3,2,.85) 0%,transparent 100%);">
+          <p style="color:var(--rose-l);font-size:.72rem;letter-spacing:1.8px;text-transform:uppercase;margin-bottom:.35rem;">Studio Walkthrough</p>
+          <p style="color:#fff;font-weight:600;font-size:1.05rem;margin-bottom:.4rem;">Behind the Scenes · 38 min</p>
+          <p style="color:rgba(255,255,255,.55);font-size:.82rem;margin:0;line-height:1.5;">An intimate look at the full creation journey inside the RebornArtistry studio.</p>
+        </div>
+      </div>
+    </div>
     <div class="col-lg-6">
       <p class="eyebrow">Watch & Learn</p><h2 style="margin-top:.5rem;">Artist Process <em>Videos</em></h2><div class="rule"></div>
       <p style="color:var(--text2);margin-bottom:1.5rem;">Dive into the techniques that make RebornArtistry dolls world-class. Painting, rooting, silicone pouring and more.</p>
