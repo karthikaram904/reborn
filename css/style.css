@@ -773,3 +773,6 @@ textarea.finput { resize: vertical; }
 .foot .f-title {
   font-size: 17px !important;
 }
+html, body {
+    overflow-x: hidden;
+}
