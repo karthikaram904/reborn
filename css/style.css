@@ -670,7 +670,7 @@ textarea.finput { resize: vertical; }
 @media (max-width: 768px) {
   .sec { padding: 3.5rem 0; }
   .hero { min-height: auto; }
-  .hero-content { padding: 3.5rem 0; }
+  .hero-content { padding: 3.5rem 30px; }
   .phero { padding: 4rem 0; }
   .gal-grid { grid-template-columns: repeat(2,1fr); }
   .auth-card { padding: 2rem 1.4rem; }
